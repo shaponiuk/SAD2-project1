@@ -1,0 +1,17 @@
+name: SAD2PROJ1
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - pip
+  - jupyter
+  - pip:
+    - matplotlib
+    - numpy
+    - matplotlib
+    - seaborn
+    - anndata
+    - scanpy
